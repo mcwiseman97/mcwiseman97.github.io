@@ -17,6 +17,7 @@
 #navBar > ul > li > a {
     font-weight: bold;
     display: inline-block;
+    line-height: 60px;
     height:70px;
     margin: 0;
     padding: 0 30px;
