@@ -1,5 +1,28 @@
 .image{
     width:120px;
     height:240px;
-    
 } 
+
+#navBar{
+    background-color: #6464646;
+    width:100%;
+    height: auto;
+    text-align:center;
+}
+
+#navBar > ul > li {
+    display: inline;
+}
+
+#navBar > ul > li > a {
+    font-weight: bold;
+    display: inline-block;
+    height:70px;
+    margin: 0;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+#navBar > ul > li > a:hover {
+    color:yellow;
+}
