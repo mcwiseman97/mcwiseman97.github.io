@@ -27,3 +27,8 @@
 #navBar > ul > li > a:hover {
     color:yellow;
 }
+
+#smith{
+    width: 120px;
+    height: 108px;
+}
