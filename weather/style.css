@@ -36,3 +36,9 @@ containit{
 #navBar > ul > li > a:hover {
     color: indianred;
 }
+
+.displayBox{
+    width:100px;
+    height:130px;
+    background-color: blue;
+}
