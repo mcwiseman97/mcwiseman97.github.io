@@ -1,0 +1,54 @@
+containit{
+    width: 100%;
+    height:100%;
+}
+
+#page-name{
+    float: right;
+}
+
+#navBar{
+    background-color: #6464646;
+    width:100%;
+    height: auto;
+}
+
+#navBar > ul > li {
+    display: inline;
+}
+
+#navBar > ul > li > a {
+    font-weight: bold;
+    display: inline-block;
+    line-height: 60px;
+    height:70px;
+    margin: 0;
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#navBar > ul > li > a:hover {
+    color: indianred;
+}
+
+#temp{
+    border: 2px solid;
+    width: 200px;
+    height: 230px;
+    background-color: blue;
+}
+
+#wind{
+    border: 2px solid;
+    width: 200px;
+    height: 230px;
+    background-color: brown;
+}
+
+#video{
+    border: 2px solid;
+    width: 200px;
+    height: 230px;
+    background-color: blueviolet;
+}
