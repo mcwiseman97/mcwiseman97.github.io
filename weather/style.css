@@ -3,8 +3,8 @@ containit{
     height:100%;
 }
 
-span{
-    font-size:40px;
+#icon{
+    font: size 100px;
     transform: scale(3, 6);  
 }
 
