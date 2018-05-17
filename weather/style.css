@@ -36,24 +36,3 @@ containit{
 #navBar > ul > li > a:hover {
     color: indianred;
 }
-
-#temp{
-    border: 2px solid;
-    width: 200px;
-    height: 230px;
-    background-color: blue;
-}
-
-#wind{
-    border: 2px solid;
-    width: 200px;
-    height: 230px;
-    background-color: brown;
-}
-
-#video{
-    border: 2px solid;
-    width: 200px;
-    height: 230px;
-    background-color: blueviolet;
-}
