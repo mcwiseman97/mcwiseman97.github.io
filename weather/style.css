@@ -3,6 +3,11 @@ containit{
     height:100%;
 }
 
+span{
+    font-size:20px;
+    transform: scale(.5, 1);  
+}
+
 #page-name{
     float: right;
 }
