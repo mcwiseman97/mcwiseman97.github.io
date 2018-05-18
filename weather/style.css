@@ -12,15 +12,16 @@ containit{
     transform: scale(3, 6);  
 } 
 
-#page-name{
-    float: right;
-}
-
 #navBar{
     background-color: #6464646;
     width:100%;
     height: auto;
     border: 2px solid;
+}
+
+#navBar > ul {
+    padding-left: 0px;
+    margin: 0 0 0 0;
 }
 
 #navBar > ul > li {
