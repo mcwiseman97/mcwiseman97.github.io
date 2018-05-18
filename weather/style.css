@@ -20,6 +20,7 @@ containit{
     background-color: #6464646;
     width:100%;
     height: auto;
+    border: 2px solid;
 }
 
 #navBar > ul > li {
