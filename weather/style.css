@@ -14,7 +14,7 @@ containit{
 
 #navBar{
     background-color: #6464646;
-    width:100%;
+    width:50%;
     height:auto;
     border:2px solid;
 }
@@ -50,5 +50,9 @@ containit{
     margin: .2em auto;
     border: 1px solid;
     border-radius: 15px;
+}
+#dog{
+    height:100px;
+    margin-left: 25px;
 }
 
