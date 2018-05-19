@@ -1,0 +1,84 @@
+<!doctype hmtl>
+<html>
+<head>
+    <title>Weather site plan</title>
+    <meta charset="UTF-8">
+    <meta lang="eng">
+</head>
+<body>
+    <main>
+        <h1>Weather Site Plan</h1>
+        <br>
+        <h2>Purpose</h2>
+        <p>The purpose of <b>The Weather Site</b> is to give current weather conditions in 3 different ways.  The initial page will give the weather for the current location based on the Geocoding location information from the device.  The second is weather for 3 specific locations accessible through a dedicated link, and the third is weather for any location determined by a search string.</p>
+        <br>
+        <h2>Audience</h2>
+        <p>Primary audience is adults ages 18-30.  Most will be students.  Access to the site will be split between mobile devices and laptops. A secondary audience will be anyone interested in weather.</p>
+        <br>
+        <h2>Audience Goals:</h2>
+        <p>College students move around quite a bit so one goal would be to quickly get the weather conditions for their current location as they head off to class or study. They are also often far from their homes so the ability to quickly get the conditions for a specific location is important as well.  The third goal deals with planning for travels...the ability to get weather conditions for any location will help with last minute packing for road trips.</p>
+        <br>
+        <h2>Persona</h2>
+        <img src="" alt="Snoopy">
+        <ul>
+            <li><b>Name:</b> Joe Cool</li>
+            <li><b>Occupation:</b> Student</li>
+            <li><b>Age:</b> Eternally 18</li>
+            <li><b>Interests:</b> Traveling, Flying, Play action, and Eating</li>
+            <li><b>Motivation:</b> Joe is not into planning.  His last minute scrambling, whether it is getting to class in the morning or heading out on his latest adventure, has left him unprepared for weather conditions many times (He is tired of sleeping in the rain and snow).  He would like to be more prepared...without having to put much effort into it...or planning.</li>
+            <li><b>Enviroment:</b> Joe is comfortable using laptops and Mobile devices, he will most often be found on a smart phone however.  Many of the places he frequents do not have great signal…he is often dealing with 3G speeds</li>
+        </ul>
+        <br>
+        <h2>Content</h2>
+        <p>All weather pages should include location name, current temperature, forecast high, forecast low, current weather descriptor, forecast percentage of precipitation, and current wind speed and direction on small devices and hourly temps should be added on larger screens. The pages of the <b>Weather Site</b> will be built in the following order:</p>
+        <br> 
+        <h3>Pages</h3>
+        <ol>
+            <li><b>Franklin, Greenville, Springfeild:</b> weather for each specific location. The weather for these pages should be pulled from the weather.JSON file that will be provided.</li>
+            <li><b>Home:</b> weather for the current location. Current location should be determined by using the Geolocation API of the browser.  This information should be passed to the WeatherUnderground API  (https://www.wunderground.com/weather/api/) to retrieve the current conditions.</li>
+            <li><b>Search:</b> Begins with only a search box, characters entered will cause a list of suggested matches to appear.  Selected location will pull up the weather. The search term from the field should be sent to the WeatherUnderground autocomplete API (https://www.wunderground.com/weather/api/d/docs?d=autocomplete-api&MR=1), and the results used to pull the current conditions for the selected location.</li>
+        </ol>
+        <br>
+        <h2>Styles</h2>
+        <h4>Branding</h4>
+        <p>The client provided the following initial concept for a name and logo:</p>
+        <p><b><i>The Weather Site</i></b> The name should be bold & italic</p>
+        <p>&#9748;</p>
+        <p>This logo can also be rendered using a HTML entity - &#9748;</p>
+        <br>
+        <h2>Typography</h2>
+        <p><b>Heading Font:</b> Sansita From Google Fonts</p>
+        <p><b>Body Copy Font:</b> Helvetica</p>
+        <br>
+        <h2>Colors</h2>
+        <img src="" alt="Color Scheme">
+        <br>
+        <h2>Elements</h2>
+        <p>(add title attribute to each anchor)</p>
+        <br>
+        <h2>Navigation:</h2>
+        <ul>
+            <li>Current</li>
+            <li>Search</li>
+            <li>Franklin ID</li>
+            <li>Greensville SC</li>
+        </ul>
+        <br>
+        <h2>Opaque Rounded Content Box:</h2>
+        <img src="" alt="Temp Box">
+        <ul>
+            <li>background-color: rgba(200,200,200,.6)</li>
+            <li>margin: .2em auto</li>
+            <li>border: 1px solid</li>
+            <li>border-radius: 15px</li>
+        </ul>
+        <br>
+        <h2>WireFrames</h2>
+        <h2>Small screen</h2>
+        <img src="" alt="Small screen Wireframe">
+        <h2>Large screen</h2>
+        <img src="" alt="Large device wireframe">
+
+    </main>
+</body>
+</html>
