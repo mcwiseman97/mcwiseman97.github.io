@@ -2,6 +2,14 @@ html{
 	background-color: antiquewhite;
 }
 
+body{
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sansita;
+}
+
 containit{
     width: 100%;
     height:100%;
@@ -56,6 +64,6 @@ containit{
 #dog{
     height:100px;
     margin-left: 25px;
-    
+
 }
 
