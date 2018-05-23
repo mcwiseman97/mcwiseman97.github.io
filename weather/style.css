@@ -11,13 +11,13 @@ containit{
     font-size: 100px;  
 } 
 
-#navBar{
+/*#navBar{
     background-color: #6464646;
     width:50%;
     height:auto;
     border:2px solid;
 }
-
+*/
 #navBar > ul {
     padding-left: 0px;
     margin: 0 0 0 0;
@@ -41,6 +41,28 @@ containit{
 #navBar > ul > li > a:hover {
     color: indianred;
 }
+
+
+
+
+
+
+
+#navBar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+
+
+
+
+
+
 
 .displayBox{
     width:150px;
