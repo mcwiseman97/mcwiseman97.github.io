@@ -57,11 +57,11 @@ containit{
 
 .display-box{
     width:150px;
-
     background-color: rgba(200,200,200,.6);
     margin: .2em auto;
     border: 1px solid;
     border-radius: 15px;
+    font-size: 16px;
 }
 #dog{
     height:100px;
