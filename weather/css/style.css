@@ -78,6 +78,14 @@ containit{
     margin-right: 30px;
 }
 
+#high{
+    color: red;
+}
+
+#low{
+    color: blue;
+}
+
 #dog{
     height:100px;
     margin-left: 25px;
