@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+em, img, b, i,dl, dt, dd, ol, ul, li,
+form, label, legend, table, tr, th, td,
+article, aside, footer, header, hgroup, menu, nav, 
+section, time {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+nav ul {
+    list-style:none;
+}
+
 html{
 	background-color: antiquewhite;
 }
