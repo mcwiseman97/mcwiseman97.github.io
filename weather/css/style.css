@@ -68,7 +68,7 @@ containit{
     font-size: 16px;
 }
 
-#temp-highlow{
+ul{
     display: inline-flex;
     text-decoration: none;
     list-style-type: none;
