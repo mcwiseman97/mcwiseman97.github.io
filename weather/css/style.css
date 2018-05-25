@@ -68,6 +68,18 @@ containit{
     border-radius: 15px;
 }
 
+
+.display-box > ul{
+    display:inline-flex;
+    list-style-type:none;
+    
+}
+
+#hourlytemp{
+    text-decoration: none;
+    list-style-type: none;
+}
+
 #maintempsize{
     font-size: 60px; 
     margin: auto; 
@@ -100,5 +112,5 @@ containit{
 }
 
 footer{
-    margin-bottom: 80px; 
+    margin-bottom: 70px; 
 }
