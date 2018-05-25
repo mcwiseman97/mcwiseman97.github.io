@@ -39,6 +39,7 @@ containit{
     height: 50px;
     padding-left: 0px;
     margin: auto;
+    margin-bottom:2px;
 }
 
 #navBar > ul > li {
