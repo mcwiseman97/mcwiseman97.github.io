@@ -27,7 +27,7 @@ containit{
 
 #navBar{
     background-color: #6464646;
-    height:auto;
+    height: auto;
     border:2px solid;
     overflow: hidden;
     position: fixed;
@@ -36,8 +36,9 @@ containit{
 }
 
 #navBar > ul {
+    height: 50px;
     padding-left: 0px;
-    margin: 0 0 0 0;
+    margin: auto;
 }
 
 #navBar > ul > li {
@@ -65,15 +66,15 @@ containit{
     margin: .2em auto;
     border: 1px solid;
     border-radius: 15px;
-    font-size: 16px;
 }
 
-.display-box +p{
-    font-size: 60px;
+#maintempsize{
+    font-size: 60px; 
+    margin: auto; 
+    text-align: center;
 }
 
-
-#temp-highlow{
+#temp-highlow {
     display: inline-flex;
     text-decoration: none;
     list-style-type: none;
@@ -99,5 +100,5 @@ containit{
 }
 
 footer{
-    
+    margin-bottom: 80px; 
 }
