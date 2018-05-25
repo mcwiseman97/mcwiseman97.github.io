@@ -68,7 +68,7 @@ containit{
     font-size: 16px;
 }
 
-#temp-highlow > li{
+#temp-highlow{
     display: inline-block;
     text-decoration: none;
 }
