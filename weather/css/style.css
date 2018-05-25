@@ -2,8 +2,7 @@
 
 
 div, span, p, em, img, b, i,dl, dt, dd, ol, ul, li,
-form, label, legend, table, tr, th, td,
-article, aside, footer, header, hgroup, menu, 
+form, label, legend, table, tr, th, td, aside, hgroup, menu, 
 section, time {
     margin:0;
     padding:0;
