@@ -69,9 +69,10 @@ containit{
 }
 
 #temp-highlow{
-    display: inline;
+    display: inline-flex;
     text-decoration: none;
     list-style-type: none;
+margin-left:50px;
 }
 
 #dog{
