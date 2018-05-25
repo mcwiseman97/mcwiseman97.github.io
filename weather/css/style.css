@@ -71,6 +71,7 @@ containit{
 #temp-highlow{
     display: inline;
     text-decoration: none;
+    list-style-type: none;
 }
 
 #dog{
