@@ -68,10 +68,10 @@ containit{
     font-size: 16px;
 }
 
-#main-temp-size{
+.display-box +p{
     font-size: 60px;
-
 }
+
 
 #temp-highlow{
     display: inline-flex;
