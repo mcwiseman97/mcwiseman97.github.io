@@ -70,6 +70,7 @@ containit{
 
 #temp-highlow > li{
     display: inline-block;
+    text-decoration: none;
 }
 
 #dog{
