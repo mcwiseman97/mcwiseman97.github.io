@@ -26,12 +26,11 @@ containit{
 } 
 
 #navBar{
-    background-color: #6464646;
     height: auto;
     border:2px solid;
     overflow: hidden;
     position: fixed;
-    bottom: 0;
+    margin-bottom: 0;
     width: 100%;
 }
 
