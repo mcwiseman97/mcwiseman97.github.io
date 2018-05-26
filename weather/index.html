@@ -7,7 +7,7 @@
         <meta name="author" content="Michael Wiseman">
         <meta name="description" content="Franklin Weather Page">
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-       	<link rel="stylesheet" href="https://mcwiseman97.github.io/weather/css/style.css">
+       	<link rel="stylesheet" href="style.css">
     </head>
     <body>
             <header>
@@ -32,16 +32,25 @@
                     
             </nav> 
             <main>
-                <h2><b>Franklin, Idaho</b></h2>
-                <p><b>zip:</b> 83237  |<b>Elevation:</b> 4501 ft.  |<b>Location:</b> 42.0135 N 111.8072 W</p>
+                <h2 id="frank-page"><b>Franklin, Idaho</b></h2>
+                <section id="local-info">
+                    <ul>
+                        <li><b>Zip:</b>83237 |</li>
+                        <li><b>Elevation:</b> 4501 ft. |</li>
+                        <li><b>Location:</b> 42.0135 N 111.8072 W</li>
+                    </ul>
+                </section>
+
                 <section class="display-box">
                     <h3><b>Temperature</b></h3>
-                    <p id=""maintempsize>24&#176;F</p> 
+                    <p id="maintempsize">24&#176;F</p> 
                     <ul id="temp-highlow">
                         <li id="high">34F</li>
                         <li id="low">21F</li>
                     </ul>
-                    <h5>Feels like 21F</h5>
+                    <h5 id="feels">Feels like 21F</h5>                     
+                </section>
+                <section id="wind-tile" class="display-box">
                     <h3>Wind</h3>
                     <p>N</p>
                     <p>2 mph</p>
@@ -50,21 +59,21 @@
                 </section>
 
                 <section class="display-box">
-                    <h3>Video Forecast</h3>
-                    <img src="images/plan-images/cool-joe.jpg" alt="Video holder" id="dog">
+                    <h2 id="weather-type">SUNNY</h2>
+                    <img src="https://mcwiseman97.github.io/weather/images/plan-images/cool-joe.jpg" alt="Video holder" id="dog">
                 </section>
-                <section class="display-box">
+                <section  id="hourly-block" class="display-box">
                     <p><b>Hourly Forecast</b></p>
-                    <ul id="hourlytemp">
-                        <li><p>12am:21F |</p></li>
-                        <li><p>1am:21F |</p></li>
-                        <li><p>2am:21F |</p></li>
-                        <li><p>3am:20F |</p></li>
-                        <li><p>4am:20F |</p></li>
-                        <li><p>5am:20F |</p></li>
-                        <li><p>6am:20F |</p></li>
-                        <li><p>7am:21F |</p></li>
-                        <li><p>8am:21F |</p></li>
+                    <ul>
+                        <li> 12am:21F |</li>
+                        <li> 1am:21F |</li>
+                        <li> 2am:21F |</li>
+                        <li> 3am:20F |</li>
+                        <li> 4am:20F |</li>
+                        <li> 5am:20F |</li>
+                        <li> 6am:20F |</li>
+                        <li> 7am:21F |</li>
+                        <li> 8am:21F |</li>
                     </ul>
                 </section>
                 <hr>
