@@ -114,6 +114,12 @@ footer{
     display:inline-flex;
     list-style-type:none;
 }
+#circle{
+    height: 50px;
+    width:50px;
+    border: 2px black solid;
+    border-radius: 50px;
+}
 
 #wind-tile{
     text-align: center;
