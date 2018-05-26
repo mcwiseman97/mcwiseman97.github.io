@@ -115,10 +115,12 @@ footer{
     list-style-type:none;
 }
 #circle{
-    height: 50px;
-    width:50px;
+    text-align: center;
+    height: 70px;
+    width:70px;
     border: 2px black solid;
-    border-radius: 50px;
+    border-radius: 51px;
+    margin: 0 auto;
 }
 
 #wind-tile{
