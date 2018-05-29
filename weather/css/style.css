@@ -65,7 +65,7 @@ footer{
     margin: auto;
     margin-bottom:2px;
     text-align: center;
-    width:411px;
+    width: 411px;
 }
 
 #navBar > ul > li {
@@ -78,7 +78,7 @@ footer{
     line-height: 60px;
     height:70px;
     margin: 0;
-    padding: 0 10px;
+    padding: 0 5px;
     text-decoration: none;
     color: black;
 }
