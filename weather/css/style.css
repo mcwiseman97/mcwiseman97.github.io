@@ -55,7 +55,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-left: -25px;
+    margin-left: -10px;
     background-color: darkslategray;
 }
 
@@ -65,7 +65,8 @@ footer{
     margin: auto;
     margin-bottom:2px;
     text-align: center;
-    width: 411px;
+    width: 421px;
+    margin-left: -10px;
 }
 
 #navBar > ul > li {
