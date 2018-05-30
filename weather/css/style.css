@@ -1,10 +1,23 @@
+
+/*TABLE OF CONTENTS*/
+/*********************************************************************
+ * 1. ELEMENT CSS EDITS ARE MADE FIRST, SEQUESTIAL ORDER
+ *
+ *********************************************************************/
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 
-/*START ELEMENT CSS*/
+
+/*START ELEMENT CSS
+  CONTENT IS ORGINIZED BY DISPLAY ORDER IN HTML*/
 body{
     font-family: helvetica, arial, sans-serif;
     background-color: beige;
 }
+
 
 main{
     align-content: center;
@@ -27,13 +40,6 @@ containit{
     height:100%;
 } 
 
-footer{
-    margin-bottom: 70px; 
-}
-
-/*END ELEMENT CSS*/
-
-/*START ID CSS*/
 #page-name{
     font-size: 40px;
     font-weight: 100;
@@ -49,6 +55,7 @@ footer{
     margin-bottom: 0;
 }
 
+/*THIS IS THE START OF THE STYLING OF MY NAV BAR*/
 #navBar{
     height: auto;
     border:2px solid;
@@ -88,7 +95,9 @@ footer{
 #navBar > ul > li > a:hover {
     color: indianred;
 }
+/* THIS IS THE END OF THE NAV STYLING*/
 
+/*THIS IS THE STYLE FOR THE  LOCAL WEATHER INFO*/
 #local-info{
     font-size:14px;
     margin-left: -24px;
@@ -108,7 +117,7 @@ footer{
 
 .display-box{
     
-    width:200px;
+    width: 50%;
     background-color: rgba(200,200,200,.6);
     margin: .2em auto;
     border: 1px solid;
@@ -129,6 +138,10 @@ footer{
     border: 2px black solid;
     border-radius: 51px;
     margin: 0 auto;
+}
+
+#circle > p{
+    margin-top: 25px;
 }
 
 #wind-tile{
@@ -203,4 +216,8 @@ footer{
 #dog{
     height:100px;
     margin-left: 25px;
+}
+
+footer{
+    margin-bottom: 70px; 
 }
