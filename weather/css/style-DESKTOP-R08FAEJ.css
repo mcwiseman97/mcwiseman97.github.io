@@ -162,6 +162,7 @@ containit{
 }
 
 #hourly-block > ul{
+    width: 200px;
     list-style-type:none;
     text-align: center;
     overflow: scroll;
