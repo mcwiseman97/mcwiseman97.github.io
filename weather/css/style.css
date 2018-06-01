@@ -159,7 +159,7 @@ containit{
     border: 1px solid;
     border-radius: 15px;
     overflow-x: auto;
-
+    overflow: hidden;
 }
 
 #hourly-block > ul{
