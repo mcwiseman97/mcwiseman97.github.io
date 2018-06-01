@@ -105,7 +105,7 @@ containit{
 
 #local-info > ul{
     height: auto;
-    overflow: hidden;
+    overflow: scroll;
     list-style-type: none;
     text-decoration: none;
 }
@@ -159,7 +159,7 @@ containit{
     border: 1px solid;
     border-radius: 15px;
     overflow-x: auto;
-    overflow: hidden;
+
 }
 
 #hourly-block > ul{
