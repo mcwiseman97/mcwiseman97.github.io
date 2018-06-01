@@ -159,12 +159,12 @@ containit{
     border: 1px solid;
     border-radius: 15px;
     overflow-x: auto;
+
 }
 
 #hourly-block > ul{
     list-style-type:none;
     text-align: center;
-    overflow: scroll;
 }
 
 #hourly-block > ul > li{
