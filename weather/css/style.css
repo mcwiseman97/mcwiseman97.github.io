@@ -10,7 +10,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 
-
+@media (min-width: 1001px;){
+    #navBar{
+        
+    }
+}
 /*START ELEMENT CSS
   CONTENT IS ORGINIZED BY DISPLAY ORDER IN HTML*/
 body{
@@ -56,16 +60,19 @@ containit{
 }
 
 /*THIS IS THE START OF THE STYLING OF MY NAV BAR*/
-#navBar{
-    height: auto;
-    border:2px solid;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-left: -10px;
-    background-color: darkslategray;
+@media (max-width: 1000px;){
+    #navBar{
+        height: auto;
+        border:2px solid;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-left: -10px;
+        background-color: darkslategray;
+    }
 }
+
 
 #navBar > ul {
     height: 50px;
@@ -95,6 +102,12 @@ containit{
 #navBar > ul > li > a:hover {
     color: indianred;
 }
+
+#right-border{
+    border-right: 2px black solid;
+    height: inherit;
+}
+
 /* THIS IS THE END OF THE NAV STYLING*/
 
 /*THIS IS THE STYLE FOR THE  LOCAL WEATHER INFO*/
