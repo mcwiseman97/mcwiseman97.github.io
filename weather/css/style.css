@@ -150,7 +150,6 @@
     #hourly-block > ul{
         list-style-type:none;
         text-align: center;
-        overflow: scroll;
     }
     
     #hourly-block > ul > li{
@@ -341,17 +340,18 @@
     border: 1px solid;
     border-radius: 15px;
     overflow-x: auto;
-
 }
 
 #hourly-block > ul{
+    display: flex;
+    flex-direction: row;
     list-style-type:none;
     text-align: center;
-    overflow: scroll;
 }
 
 #hourly-block > ul > li{
     margin-bottom: 3px;
+    margin-right: 10px;
 }
 
 #hourlytemp{
@@ -399,3 +399,4 @@
     height:100px;
     margin-left: 25px;
 }
+
