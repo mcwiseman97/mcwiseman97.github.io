@@ -51,6 +51,8 @@ h1 {
 
 .page-header {
 	background-image: url("https://mcwiseman97.github.io/home_work/responsive_media/images/grand-canyon-400.jpg");
+	background-repeat: no-repeat;
+	background-size: 670px 250px;
 }
 
 
@@ -172,7 +174,11 @@ h1 {
 		line-height: 1.125;
 	}
 	/*	Background Images - Use with medium screens */
-	.page-header {}
+	.page-header {
+		background-image: url("https://mcwiseman97.github.io/home_work/responsive_media/images/grand-canyon-900.jpg");
+		background-repeat: no-repeat;
+		background-size: 1770px 250px;
+	}
 	.page-nav {
 		position: relative;
 	}
@@ -217,7 +223,11 @@ h1 {
 		line-height: 1.05;
 	}
 	/*	Background Images - Use with large screens */
-	.page-header {}
+	.page-header {
+		background-image: url("https://mcwiseman97.github.io/home_work/responsive_media/images/grand-canyon-1220.jpg");
+		background-repeat: no-repeat;
+		background-size: 1495.3px 200px;
+	}
 	.page-nav li {
 		flex: 0 1 10%;
 	}
