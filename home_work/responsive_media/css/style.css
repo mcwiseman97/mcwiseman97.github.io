@@ -49,7 +49,9 @@ h1 {
 
 /*	Background Images - use with Small screens */
 
-.page-header {}
+.page-header {
+	background-image: url("https://mcwiseman97.github.io/home_work/responsive_media/images/grand-canyon-400.jpg");
+}
 
 
 /*******************************
