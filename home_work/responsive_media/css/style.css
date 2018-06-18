@@ -169,6 +169,9 @@ h1 {
 	body {
 		font-size: 1.25em;
 	}
+	header{
+		display: flex;
+	}
 	h1 {
 		font-size: 2em;
 		line-height: 1.125;
@@ -180,7 +183,8 @@ h1 {
 		background-size: 1770px 250px;
 	}
 	#nplogo{
-		width: 150px;
+		width: 130px;
+		height: 150px;
 	}
 
 	.page-nav {
