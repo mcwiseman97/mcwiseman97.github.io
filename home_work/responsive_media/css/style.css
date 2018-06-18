@@ -179,6 +179,10 @@ h1 {
 		background-repeat: no-repeat;
 		background-size: 1770px 250px;
 	}
+	#nplogo{
+		width: 200px;
+	}
+
 	.page-nav {
 		position: relative;
 	}
