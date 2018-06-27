@@ -70,11 +70,9 @@ function windDial(direction){
 }
 
 function getCondition(CONDITION){
-    // let cond = CONDITION.toLowerCase();
+     let cond = CONDITION.toLowerCase();
 
-    // cond = "Rainy";
-
-    CONDITION = "Rainy";
+    cond = "Rainy";
     
      if(cond == "Rainy" || cond == "showers" ){
         return "Rainy";
