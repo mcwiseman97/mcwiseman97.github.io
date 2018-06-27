@@ -5,7 +5,7 @@ const TEMP = 5;
 buildWindChill(SPEED, TEMP);
 const direction = "NNE";
 windDial(direction);
-const CONDITION = rainy;
+const CONDITION = "Rainy";
 
 const _newCondition = getCondition(CONDITION);
 
