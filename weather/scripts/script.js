@@ -13,7 +13,7 @@ changeSummeryImage(_newCondition);
 
 //THis function will determine the feels tempreture in html
 function buildWindChill(SPEED, TEMP){
-    const feelTemp = document.getElementById('feelTemp');
+    const feelTEMP = document.getElementById('feelTEMP');
     //math to determine how the air will feel
     let wc = 35.74 + 0.6215 * TEMP - 35.75 * Math.pow(SPEED, 0.16) + 0.4275 * TEMP * Math.pow(SPEED, 0.16);
 
@@ -21,7 +21,7 @@ function buildWindChill(SPEED, TEMP){
 
     wc = (wc > TEMP)?TEMP:wc;
     console.log(wc);
-    feelTemp.innerHTML = wc;
+    feelTEMP.innerHTML = wc;
 }
 
 function windDial(direction){
