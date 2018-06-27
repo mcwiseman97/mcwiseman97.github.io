@@ -9,6 +9,7 @@ const CONDITION = "Rainy";
 
 const _newCondition = getCondition(CONDITION);
 
+
 changeSummeryImage(_newCondition);
 
 //THis function will determine the feels tempreture in html
@@ -75,7 +76,7 @@ function getCondition(CONDITION){
 
     CONDITION = "Rainy";
     
-     if(cond == "rainy" || cond == showers ){
+     if(cond == "Rainy" || cond == "showers" ){
         return "Rainy";
      }
     //  if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
