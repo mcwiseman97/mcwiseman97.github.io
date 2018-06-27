@@ -7,10 +7,10 @@ const direction = "NNE";
 windDial(direction);
 const CONDITION = "Rainy";
 
-const _newCondition = getCondition(CONDITION);
+getCondition(CONDITION);
 
 
-changeSummeryImage(_newCondition);
+// changeSummeryImage(_newCondition);
 
 //THis function will determine the feels tempreture in html
 function buildWindChill(SPEED, TEMP){
@@ -75,6 +75,7 @@ function getCondition(CONDITION){
     cond = "Rainy";
     
      if(cond == "Rainy" || cond == "showers" ){
+         console.log(cond)
         return "Rainy";
      }
     //  if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
@@ -88,9 +89,9 @@ function getCondition(CONDITION){
     //  }
 }
 
-function changeSummeryImage(_newCondition){
-    if (_newCondition == "Rainy"){
-        document.body.style.backgroundImage = "url('rain.jpg')";
-    }
+// function changeSummeryImage(_newCondition){
+//     if (_newCondition == "Rainy"){
+//         document.body.style.backgroundImage = "url('rain.jpg')";
+//     }
 
-}
+// }
