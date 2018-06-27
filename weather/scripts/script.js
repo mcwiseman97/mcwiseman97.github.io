@@ -78,15 +78,15 @@ function getCondition(CONDITION){
      if(cond == "rainy" || cond == showers ){
         return "Rainy";
      }
-     if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
-        return "Cloudy";
-     }
-     if(PHRASE.includes("fog"))||(PHRASE.includes("mist")){
-        return "Foggy";
-     }
-     if(PHRASE.includes(""))||(PHRASE.includes("")){
+    //  if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
+    //     return "Cloudy";
+    //  }
+    //  if(PHRASE.includes("fog"))||(PHRASE.includes("mist")){
+    //     return "Foggy";
+    //  }
+    //  if(PHRASE.includes(""))||(PHRASE.includes("")){
 
-     }
+    //  }
 }
 
 function changeSummeryImage(_newCondition){
