@@ -20,7 +20,7 @@ function buildWindChill(SPEED, TEMP){
     wc = Math.floor(wc);
 
     wc = (wc > TEMP)?TEMP:wc;
-    console.log(wc);
+    console.log(wc); 
     feelTEMP.innerHTML = wc;
 }
 
