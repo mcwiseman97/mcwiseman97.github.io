@@ -26,7 +26,7 @@ function buildWindChill(SPEED, TEMP){
 }
 
 function windDial(direction){
-    const dial = document.getElementById("circle");
+    const dial = document.getElementById("dial");
     console.log(direction);
 
 //setermines which direction case
@@ -68,8 +68,8 @@ function windDial(direction){
          dial.setAttribute("class", "w");
          break;
     }
-
-    windDir.innerHTML = direction;
+   
+    windDir.innerHTML = dial;
 }
 
 function getCondition(CONDITION){

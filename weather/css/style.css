@@ -108,7 +108,7 @@
         margin-left: -24px;
     }
 
-    #circle{
+    #dial{
         text-align: center;
         height: 70px;
         width:70px;
@@ -117,7 +117,7 @@
         margin: 0 auto;
     }
     
-    #circle > p{
+    #dial > p{
         margin-top: 25px;
     }
 
@@ -301,7 +301,7 @@
     display: inline;
 }
 
-#circle {
+#dial {
     height: 150px;
     width: 150px;
     background: no-repeat center/85% url('https://mcwiseman97.github.io/weather/images/weather-images/wind-pointer.png');
@@ -309,7 +309,7 @@
     margin: -.6em auto 0;
    }
 
-#circle > p{
+#dial > p{
     margin-top: 25px;
 }
 
@@ -387,3 +387,4 @@
     height:100px;
     margin-left: 25px;
 }
+
