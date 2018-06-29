@@ -75,20 +75,21 @@ function getCondition(CONDITION){
     let cond = CONDITION.toLowerCase();
     
      if(cond == "rainy" || cond == "showers" ){
+        currWeather = "rainy";         
         console.log(currWeather);
-        currWeather = "rainy";
      }
      if(cond == "cloud" || cond == "gloom"){
-        console.log(currWeather);
         currWeather = "cloudy";
+        console.log(currWeather);
      }
      if(cond == "fog" || cond == "mist"){
-        console.log(currWeather);
         currWeather = "foggy";
+        console.log(currWeather);
      }
      if( cond == "snow" || cond == "blizz"){
-        console.log(currWeather);
         currWeather = "snowy";
+        console.log(currWeather);
+
      }
 }
 
