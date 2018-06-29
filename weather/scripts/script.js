@@ -3,7 +3,7 @@ let currWeather;
 const SPEED = 31;
 const TEMP = 5;
 buildWindChill(SPEED, TEMP);
-const direction = "NNE";
+const direction = "SW";
 windDial(direction);
 const CONDITION = "cloud";
 getCondition(CONDITION);
