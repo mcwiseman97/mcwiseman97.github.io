@@ -68,8 +68,7 @@ function windDial(direction){
          dial.setAttribute("class", "w");
          break;
     }
-   
-    windDir.innerHTML = dial;
+    
 }
 
 function getCondition(CONDITION){
