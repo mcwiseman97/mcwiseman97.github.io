@@ -1,13 +1,13 @@
 //KEY WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2
-
+let currWeather;
 const SPEED = 31;
 const TEMP = 5;
 buildWindChill(SPEED, TEMP);
 const direction = "NNE";
 windDial(direction);
-const CONDITION = "Rainy";
+const CONDITION = "cloud";
 getCondition(CONDITION);
-let currWeather;
+
 
 
 // changeSummeryImage(_newCondition);
@@ -73,21 +73,20 @@ function windDial(direction){
 
 function getCondition(CONDITION){
     let cond = CONDITION.toLowerCase();
-    cond = "rainy";
     
      if(cond == "rainy" || cond == "showers" ){
         console.log(currWeather);
         currWeather = "rainy";
      }
-     if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
+     if(cond == "cloud" || cond == "gloom"){
         console.log(currWeather);
         currWeather = "cloudy";
      }
-     if(PHRASE.includes("fog"))||(PHRASE.includes("mist")){
+     if(cond == "fog" || cond == "mist"){
         console.log(currWeather);
         currWeather = "foggy";
      }
-     if(PHRASE.includes("snow"))||(PHRASE.includes("blizz")){
+     if( cond == "snow" || cond == "blizz"){
         console.log(currWeather);
         currWeather = "snowy";
      }
