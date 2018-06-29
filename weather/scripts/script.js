@@ -6,8 +6,8 @@ buildWindChill(SPEED, TEMP);
 const direction = "NNE";
 windDial(direction);
 const CONDITION = "Rainy";
-
 getCondition(CONDITION);
+let currWeather;
 
 
 // changeSummeryImage(_newCondition);
@@ -72,29 +72,41 @@ function windDial(direction){
 }
 
 function getCondition(CONDITION){
-     let cond = CONDITION.toLowerCase();
-
+    let cond = CONDITION.toLowerCase();
     cond = "rainy";
     
      if(cond == "rainy" || cond == "showers" ){
-        document.getElementById("contain-display-box").style.backgroundImage = "url('https://mcwiseman97.github.io/weather/images/weather-images/rain.jpg')";
-        console.log(cond);
-        return "Rainy";
+        console.log(currWeather);
+        currWeather = "rainy";
      }
-    //  if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
-    //     return "Cloudy";
-    //  }
-    //  if(PHRASE.includes("fog"))||(PHRASE.includes("mist")){
-    //     return "Foggy";
-    //  }
-    //  if(PHRASE.includes(""))||(PHRASE.includes("")){
-
-    //  }
+     if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
+        console.log(currWeather);
+        currWeather = "cloudy";
+     }
+     if(PHRASE.includes("fog"))||(PHRASE.includes("mist")){
+        console.log(currWeather);
+        currWeather = "foggy";
+     }
+     if(PHRASE.includes("snow"))||(PHRASE.includes("blizz")){
+        console.log(currWeather);
+        currWeather = "snowy";
+     }
 }
 
-// function changeSummeryImage(_newCondition){
-//     if (_newCondition == "Rainy"){
-//         document.body.style.backgroundImage = "url('rain.jpg')";
-//     }
+function changeSummeryImage(){
+    const changeImg = document.getElementById("contain-display-box");
 
-// }
+    if(currWeather == "rainy"){
+        changeImg.setAttribute("class", "rainy");
+    }
+    if(currWeather == "cloudy"){
+        changeImg.setAttribute("class", "cloudy");
+    }
+    if(currWeather == "foggy"){
+        changeImg.setAttribute("class", "foggy");
+    }
+    if(currWeather == "snowy"){
+        changeImg.setAttribute("class", "snowy");
+    }
+
+}

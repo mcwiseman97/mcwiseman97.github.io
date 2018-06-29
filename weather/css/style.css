@@ -270,7 +270,6 @@
      width: 100%;
      display: flex;
      flex-direction: row;
-     background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/clear.jpg");
  }
 
 
@@ -418,6 +417,24 @@
 
 .w{
     transform: rotate(315deg);
+}
+
+
+
+.rainy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/rain.jpg");
+}
+
+.cloudy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/clouds.jpg");
+}
+
+.foggy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/fog.jpg");
+}
+
+.snowy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/snow.jpg");
 }
 
 
