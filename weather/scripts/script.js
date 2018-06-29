@@ -29,8 +29,6 @@ function windDial(direction){
     const dial = document.getElementById("circle");
     console.log(direction);
 
-    windDir.innerHTML = direction;
-
 //setermines which direction case
     switch (direction){
         case "North":
@@ -70,6 +68,8 @@ function windDial(direction){
          dial.setAttribute("class", "w");
          break;
     }
+
+    windDir.innerHTML = direction;
 }
 
 function getCondition(CONDITION){
