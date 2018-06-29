@@ -68,7 +68,7 @@ function windDial(direction){
          dial.setAttribute("class", "w");
          break;
     }
-    
+
 }
 
 function getCondition(CONDITION){
@@ -77,7 +77,8 @@ function getCondition(CONDITION){
     cond = "rainy";
     
      if(cond == "rainy" || cond == "showers" ){
-         console.log(cond);
+        document.getElementById("contain-display-box").style.backgroundImage = "url('https://mcwiseman97.github.io/weather/images/weather-images/rain.jpg')";
+        console.log(cond);
         return "Rainy";
      }
     //  if(PHRASE.includes("cloud"))||(PHRASE.includes("gloom")){
