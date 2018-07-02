@@ -58,7 +58,7 @@ const SPEED = 31;
 const TEMP = 5;
 //const TEMP = data[0]['Temperature']['Imperial']['Value'];
 //const TEMP = data[0].Temperature.Imperial.Value;
-buildWindChill(SPEED, TEMP);
+//buildWindChill(SPEED, TEMP);
 const direction = "SW";
 windDial(direction);
 const CONDITION = "cloud";
@@ -74,7 +74,7 @@ document.getElementsByClassName("maintemp") =
 
 buildPage(locData);
 
-// changeSummeryImage(_newCondition);
+ changeSummeryImage(_newCondition);
 
 //THis function will determine the feels tempreture in html
 // function buildWindChill(SPEED, TEMP){
