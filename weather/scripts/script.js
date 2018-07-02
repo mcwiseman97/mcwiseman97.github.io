@@ -13,7 +13,11 @@ getCondition(CONDITION);
 
 changeSummeryImage(currWeather);
 
+getCode(LOCALE);
 
+getWeather(locData);
+
+getHourly(locData);
 
 // changeSummeryImage(_newCondition);
 
