@@ -50,7 +50,7 @@ var franklin = {
    var city = document.getElementById("city");
    city.innerHTML = franklin.City;
    var state = document.getElementById("state");
-   state.innerHTML = franklin.state;
+   state.innerHTML = franklin.State;
 
 
 let currWeather = "rainy";
