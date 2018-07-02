@@ -1,6 +1,6 @@
 //KEY WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2
 //http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2&q=34%2C-112&language=en-us
-let currWeather = "cloudy";
+let currWeather = "rainy";
 const SPEED = 31;
 const TEMP = 5;
 //const TEMP = data[0]['Temperature']['Imperial']['Value'];
@@ -102,22 +102,22 @@ function getCondition(CONDITION, currWeather){
      return currWeather;
 }
 
-function changeSummeryImage(currWeather){
+function changeSummeryImage(CONDITION){
     const changeImg = document.getElementById("contain-display-box");
 
-    if(currWeather == "rainy"){
+    if(CONDITION == "rainy"){
         changeImg.setAttribute("class", "rainy");
         console.log("Changed Class to Rainy");
     }
-    if(currWeather == "cloudy"){
+    if(CONDITION == "cloudy"){
         changeImg.setAttribute("class", "cloudy");
         console.log("Changed Class to Cloudy");
     }
-    if(currWeather == "foggy"){
+    if(CONDITION == "foggy"){
         changeImg.setAttribute("class", "foggy");
         console.log("Changed Class to foggy");
     }
-    if(currWeather == "snowy"){
+    if(cONDITION == "snowy"){
         changeImg.setAttribute("class", "snowy");
         console.log("Changed Class to snowy");
     }

@@ -420,6 +420,7 @@
 
 .rainy{
     background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/rain.jpg");
+    background-size: 300px 100px;
 }
 
 .cloudy{
