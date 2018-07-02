@@ -1,5 +1,5 @@
 //KEY WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2
-let currWeather = "rainy";
+let currWeather = "cloudy";
 const SPEED = 31;
 const TEMP = 5;
 buildWindChill(SPEED, TEMP);
