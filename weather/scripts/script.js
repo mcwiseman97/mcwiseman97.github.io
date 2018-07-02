@@ -8,6 +8,8 @@ windDial(direction);
 const CONDITION = "cloud";
 getCondition(CONDITION);
 
+changeSummeryImage(currWeather);
+
 
 
 // changeSummeryImage(_newCondition);
@@ -71,7 +73,7 @@ function windDial(direction){
 
 }
 
-function getCondition(CONDITION){
+function getCondition(CONDITION, currWeather){
     let cond = CONDITION.toLowerCase();
     
      if(cond == "rainy" || cond == "showers" ){
@@ -98,15 +100,19 @@ function changeSummeryImage(currWeather){
 
     if(currWeather == "rainy"){
         changeImg.setAttribute("class", "rainy");
+        console.log("Changed Class to Rainy");
     }
     if(currWeather == "cloudy"){
         changeImg.setAttribute("class", "cloudy");
+        console.log("Changed Class to Cloudy");
     }
     if(currWeather == "foggy"){
         changeImg.setAttribute("class", "foggy");
+        console.log("Changed Class to foggy");
     }
     if(currWeather == "snowy"){
         changeImg.setAttribute("class", "snowy");
+        console.log("Changed Class to snowy");
     }
 
 }
