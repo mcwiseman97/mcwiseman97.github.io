@@ -170,7 +170,7 @@ function changeSummeryImage(CONDITION){
         changeImg.setAttribute("class", "foggy");
         console.log("Changed Class to foggy");
     }
-    if(cONDITION == "snowy"){
+    if(CONDITION == "snowy"){
         changeImg.setAttribute("class", "snowy");
         console.log("Changed Class to snowy");
     }
