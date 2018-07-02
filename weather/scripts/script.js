@@ -3,8 +3,8 @@
 let currWeather = "cloudy";
 const SPEED = 31;
 //const TEMP = 5;
-//const TEMP = data[0]['Temperature']['Imperial']['Value'];
-const TEMP = data[0].Temperature.Imperial.Value;
+const TEMP = data[0]['Temperature']['Imperial']['Value'];
+//const TEMP = data[0].Temperature.Imperial.Value;
 buildWindChill(SPEED, TEMP);
 const direction = "SW";
 windDial(direction);
