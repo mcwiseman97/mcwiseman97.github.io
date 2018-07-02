@@ -301,7 +301,7 @@ function buildPage(locData){
     buildWindChill(TEMP, SPEED);
     windDial(DIRECTION);
     const CONDRESULT = getCondition(PHRASE);
-    console.log('The phrase returned:' ${CONDRESULT});
+    //console.log('The phrase returned:' ${CONDRESULT});
     changeSummeryImage(CONDRESULT);
 
     //Task 2
