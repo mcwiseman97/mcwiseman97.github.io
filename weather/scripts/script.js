@@ -76,6 +76,8 @@ getHourly(locData);
 
 document.getElementsByClassName("maintemp") = 
 
+buildPage(locData);
+
 // changeSummeryImage(_newCondition);
 
 //THis function will determine the feels tempreture in html
@@ -294,3 +296,4 @@ function getHourly(locData) {
     })
     .catch(error => console.log('There was an error: ', error))
 } // end getHourly function
+
