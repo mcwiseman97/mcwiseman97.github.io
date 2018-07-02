@@ -1,6 +1,6 @@
 //KEY WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2
 //http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2&q=34%2C-112&language=en-us
-get.json("weather.json");
+get.json("https://mcwiseman97.github.io/weather/scripts/weather.json");
 let currWeather = "rainy";
 const SPEED = 31;
 const TEMP = 5;
