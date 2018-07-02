@@ -81,17 +81,17 @@ buildPage(locData);
 // changeSummeryImage(_newCondition);
 
 //THis function will determine the feels tempreture in html
-function buildWindChill(SPEED, TEMP){
-    const feelTEMP = document.getElementById('feelTEMP');
-    //math to determine how the air will feel
-    let wc = 35.74 + 0.6215 * TEMP - 35.75 * Math.pow(SPEED, 0.16) + 0.4275 * TEMP * Math.pow(SPEED, 0.16);
+// function buildWindChill(SPEED, TEMP){
+//     const feelTEMP = document.getElementById('feelTEMP');
+//     //math to determine how the air will feel
+//     let wc = 35.74 + 0.6215 * TEMP - 35.75 * Math.pow(SPEED, 0.16) + 0.4275 * TEMP * Math.pow(SPEED, 0.16);
 
-    wc = Math.floor(wc);
+//     wc = Math.floor(wc);
 
-    wc = (wc > TEMP)?TEMP:wc;
-    console.log(wc); 
-    feelTEMP.innerHTML = wc;
-}
+//     wc = (wc > TEMP)?TEMP:wc;
+//     console.log(wc); 
+//     feelTEMP.innerHTML = wc;
+// }
 
 function windDial(direction){
     const dial = document.getElementById("circle");
