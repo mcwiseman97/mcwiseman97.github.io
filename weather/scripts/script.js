@@ -70,10 +70,6 @@ getGeoLocation();
 console.log(`Lat and Long are: ${LOCALE}.`);
 getCode(LOCALE);
 
-getWeather(locData);
-
-getHourly(locData);
-
 document.getElementsByClassName("maintemp") = 
 
 buildPage(locData);
