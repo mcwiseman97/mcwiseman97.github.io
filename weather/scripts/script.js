@@ -89,11 +89,11 @@ function getCondition(CONDITION){
      if( cond == "snow" || cond == "blizz"){
         currWeather = "snowy";
         console.log(currWeather);
-
      }
+     return currWeather;
 }
 
-function changeSummeryImage(){
+function changeSummeryImage(currWeather){
     const changeImg = document.getElementById("contain-display-box");
 
     if(currWeather == "rainy"){
@@ -110,3 +110,4 @@ function changeSummeryImage(){
     }
 
 }
+
