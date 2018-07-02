@@ -2,8 +2,8 @@
 //http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2&q=34%2C-112&language=en-us
 let currWeather = "cloudy";
 const SPEED = 31;
-//const TEMP = 5;
-const TEMP = data[0]['Temperature']['Imperial']['Value'];
+const TEMP = 5;
+//const TEMP = data[0]['Temperature']['Imperial']['Value'];
 //const TEMP = data[0].Temperature.Imperial.Value;
 buildWindChill(SPEED, TEMP);
 const direction = "SW";
