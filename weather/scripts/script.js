@@ -51,6 +51,7 @@ var city = document.getElementById("city");
 city.innerHTML = franklin.City;
 var state = document.getElementById("state");
 state.innerHTML = franklin.State;
+var LOCALE;
 
 
 let currWeather = "rainy";
@@ -297,7 +298,7 @@ function buildPage(locData) {
     const DIRECTION = locData.windDirection;
     const PHRASE = locData.summary;
     buildWindChill(TEMP, SPEED);
-    windDial(DIRECTION);
+    windDial(direction);
     const CONDRESULT = getCondition(currWeather, CONDITION);
     //console.log('The phrase returned:' ${CONDRESULT});
     changeSummeryImage(CONDRESULT);
