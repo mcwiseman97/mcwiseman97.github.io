@@ -47,6 +47,8 @@ var franklin = {
    }
 
 
+   var city = document.getElementById("city");
+   city.innerHTML = franklin.City;
 
 
 let currWeather = "rainy";
