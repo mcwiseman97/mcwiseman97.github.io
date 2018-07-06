@@ -218,7 +218,7 @@ function getCode(LOCALE) {
 }
 
 function getWeather(locData) {
-    const API_KEY = 'Your Key Goes Here';
+    const API_KEY = 'WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2';
     const CITY_CODE = locData['key']; // We're getting data out of the object
     const URL = "https://dataservice.accuweather.com/currentconditions/v1/" + CITY_CODE + "?apikey=" + API_KEY + "&details=true";
     fetch(URL)
@@ -243,7 +243,7 @@ function getWeather(locData) {
 
 // Get next 12 hours of forecast data from API
 function getHourly(locData) {
-    const API_KEY = 'Paste Your API Key Here';
+    const API_KEY = 'WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2';
     const CITY_CODE = locData['key'];
     const URL = "https://dataservice.accuweather.com/forecasts/v1/hourly/12hour/" + CITY_CODE + "?apikey=" + API_KEY;
     fetch(URL)
@@ -305,4 +305,36 @@ function buildPage(locData) {
 
     //Task 2
     const TITLE = document.getElementsByTagName("title");
+    const LOCATION_NAME = document.getElementById("location1");
+    const ZIP = document.getElementById("zip");
+    const ELEVATION = document.getElementById("elevation");
+    const LAT_LON = document.getElementById("latlon");
+    TITLE[0].insertAdjacentHTML("afterbegin", locData.name + ", " + locData.state);
+
+    LOCATION_NAME.innerHTML = locData.name + ", " + locData.state;
+    ZIP.innerHTML = locData.postal;
+    ELEVATION.innerHTML = locData.elevation + "ft";
+    LAT_LON.innerHTML = locData.geoposition;
+
+    //Task 3
+    const CUR_TEMP = document.getElementById("curTemp");
+    const HI_TEMP = document.getElementById("hi");
+    const LO_TEMP = document.getElementById("lo");
+    const WIND_SPEED = document.getElementById("wind-speed");
+    const GUST = document.getElementById("gust");
+    const WIND_DIR = document.getElementById("wind_dir");
+    const FORECAST = docuemnt.getElementById("forecast");
+    const WEATHER_ICON = document.getElementById("weather-icon");
+
+    CUR_TEMP.innerHTML = locData.currentTemp + "&deg;F";
+    HI_TEMP.innerHTML = locData.pastHigh + "&deg;F";
+    LO_TEMP.innerHTML = locData.pastLow + "&deg;F";
+    WIND_SPEED.innerHTML = Math.round(SPEED) + "mph";
+    GUST.innerHTML = Math.round(locData.windGust);
+    WIND_DIR.innerHTML = DIRECTION;
+    FORECAST.innerHTML = locData.summary;
+    //WEATHER_ICON.setAttribute("src", locData.current_observation.icon);
+
+
+
 }

@@ -38,16 +38,19 @@
     </nav>
     <main>
         <h2 id="frank-page">
-            <b><span id="city">city</span>, <span id="state">state</span></b>
+            <b><span id="location1">city, state</span></b>
         </h2>
         <section id="local-info">
             <ul>
                 <li>
-                    <b>Zip:</b>83237 |</li>
+                    <b>Zip:</b><span id="zip">83237</span> |
+                </li>
                 <li>
-                    <b>Elevation:</b> 4968 ft. |</li>
+                    <b>Elevation:</b> <span id="elevation">4968 ft.</span> |
+                </li>
                 <li>
-                    <b>Location:</b> 42.07, 111.79</li>
+                    <b>Location:</b> <span id="latlon">42.07, 111.79</span>
+                </li>
             </ul>
         </section>
         <p id="status"></p>
@@ -58,25 +61,25 @@
                 <h3>
                     <b>Temperature</b>
                 </h3>
-                <p id="maintempsize" class="maintemp">24&#176;F</p>
+                <p id="maintempsize" class="maintemp"><span id="curTemp">24&#176;F</span></p>
                 <ul id="temp-highlow">
-                    <li id="high">64F</li>
-                    <li id="low">41F</li>
+                    <li id="hi">64F</li>
+                    <li id="lo">41F</li>
                 </ul>
                 <p id="feels">Feels Like
                     <span id="feelTEMP">??</span>°F</p>
             </section>
             <section id="wind-box" class="display-box">
                 <h3>Wind</h3>
-                <p class="windDir">SW</p>
-                <p id="mph">5 mph</p>
+                <p id="wind_dir" class="windDir">SW</p>
+                <p id="wind-speed">5 mph</p>
                 <section id="circle">
                 </section>
                 <p>
                     <b>Direction:</b> <span class="windDir">NW</span>
                 </p>
-                <p>
-                    <b>Gusts:</b> 5mph</p>
+                <p><b>Gusts:</b> <span id="gust">5mph</span></p>
+                    
             </section>
 
             <section id="vid-box" class="display-box">
