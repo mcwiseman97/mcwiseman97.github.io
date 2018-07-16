@@ -139,7 +139,7 @@ function changeDecoysClass(){
     let decoyPrice = document.getElementById("decoysPrice");
 
     decoyPrice.innerHTML = "$" + decoyData.price;
-    decoyReview.innerHTML = decoyData.reviews "/5 stars";
+    decoyReview.innerHTML = decoyData.reviews + "/5 stars";
     decoyManufacturer.innerHTML = "Made by: " + decoyData.manufacturer;
     decoyDescription.innerHTML = decoyData.decription;
     contentTitle.innerHTML = decoyData.name;
