@@ -1,12 +1,8 @@
-
 /*TABLE OF CONTENTS*/
 /*********************************************************************
  * 1. ELEMENT CSS EDITS ARE MADE FIRST, SEQUESTIAL ORDER
  *
  *********************************************************************/
-
-
-
 
  @import url('https://fonts.googleapis.com/css?family=Sansita');
 
@@ -24,7 +20,8 @@
 
  body{
      font-family: helvetica, arial, sans-serif;
-     background-color: beige;
+     /* background-color: beige; */
+     background-image: url("")
  }
  
  @media screen and (max-width: 700px){
@@ -108,7 +105,7 @@
         margin-left: -24px;
     }
 
-    #circle{
+    #dial{
         text-align: center;
         height: 70px;
         width:70px;
@@ -117,7 +114,7 @@
         margin: 0 auto;
     }
     
-    #circle > p{
+    #dial > p{
         margin-top: 25px;
     }
 
@@ -211,12 +208,7 @@
 
 
 }
-
-
-
-
-
- 
+ /*-----------------------------------------------------------*/
  /*THIS IS THE START OF THE STYLING OF MY NAV BAR*/
 
     
@@ -289,19 +281,6 @@
     list-style-type:none;
 }
 
-#circle{
-    text-align: center;
-    height: 70px;
-    width:70px;
-    border: 2px black solid;
-    border-radius: 51px;
-    margin: 0 auto;
-}
-
-#circle > p{
-    margin-top: 25px;
-}
-
 #local-info > ul{
     height: auto;
     overflow: hidden;
@@ -313,14 +292,13 @@
     display: inline;
 }
 
-#circle{
-    text-align: center;
-    height: 70px;
-    width:70px;
-    border: 2px black solid;
-    border-radius: 51px;
-    margin: 0 auto;
-}
+#circle {
+    height: 150px;
+    width: 150px;
+    background: no-repeat center/85% url('https://mcwiseman97.github.io/weather/images/weather-images/wind-pointer.png');
+    z-index: 100;
+    margin: -.6em auto 0;
+   }
 
 #circle > p{
     margin-top: 25px;
@@ -400,4 +378,62 @@
     height:100px;
     margin-left: 25px;
 }
+
+#mph{
+    margin-bottom: -90px;
+    margin-top: 65px;
+}
+
+.n{
+    transform: rotate(0deg);
+}
+
+.ne {
+    transform: rotate(-45deg);
+}
+
+.nw{
+    transform: rotate(45deg);
+}
+
+.s{
+    transform: rotate(180deg);
+}
+
+.se{
+    transform: rotate(-135deg);
+}
+
+.sw{
+    transform: rotate(135deg);
+}
+
+.e{
+    transform: rotate(-90deg);
+}
+
+.w{
+    transform: rotate(90deg);
+}
+
+
+
+.rainy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/rain.jpg");
+    background-size: 734px 320px;
+}
+
+.cloudy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/clouds.jpg");
+}
+
+.foggy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/fog.jpg");
+}
+
+.snowy{
+    background-image: url("https://mcwiseman97.github.io/weather/images/weather-images/snow.jpg");
+}
+
+
 
