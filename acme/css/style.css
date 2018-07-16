@@ -150,6 +150,7 @@ hidden{
 
 .imgHeight{
     height: 300px;
+    margin-bottom: 70px;
 }
 .floatRight{
     float: right;
@@ -322,10 +323,12 @@ hidden{
 
     .imgHeight{
         height: 300px;
+        margin-bottom: 70px;
     }
     
     .imgWidth{
         width: 250px;
+        margin-bottom: 70px;
     }
 
     .floatRight{
