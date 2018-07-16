@@ -92,9 +92,9 @@ function changeAnvilClass(){
     let anvilReview = document.getElementById("anvilReview");
     let anvilPrice = document.getElementById("anvilPrice");
 
-    anvilPrice.innerHTML = anvilData.price;
-    anvilReview.innerHTML = anvilData.reviews;
-    anvilManufacturer.innerHTML = anvilData.manufacturer;
+    anvilPrice.innerHTML = "$" + anvilData.price;
+    anvilReview.innerHTML = anvilData.reviews + "/5 stars";
+    anvilManufacturer.innerHTML = "Made by: " + anvilData.manufacturer;
     anvilDescription.innerHTML = anvilData.decription;
     contentTitle.innerHTML = anvilData.name;
 
@@ -115,9 +115,9 @@ function changeExplosivesClass(){
     let explosiveReview = document.getElementById("explosivesReview");
     let explosivePrice = document.getElementById("explosivesPrice");
 
-    explosivePrice.innerHTML = expData.price;
-    explosiveReview.innerHTML = expData.reviews;
-    explosiveManufacturer.innerHTML = expData.manufacturer;
+    explosivePrice.innerHTML = "$" + expData.price;
+    explosiveReview.innerHTML = expData.reviews + "/5 stars";
+    explosiveManufacturer.innerHTML = "Made by: " + expData.manufacturer;
     explosiveDescription.innerHTML = expData.decription;
     contentTitle.innerHTML = expData.name;
 
@@ -138,9 +138,9 @@ function changeDecoysClass(){
     let decoyReview = document.getElementById("decoysReview");
     let decoyPrice = document.getElementById("decoysPrice");
 
-    decoyPrice.innerHTML = decoyData.price;
-    decoyReview.innerHTML = decoyData.reviews;
-    decoyManufacturer.innerHTML = decoyData.manufacturer;
+    decoyPrice.innerHTML = "$" + decoyData.price;
+    decoyReview.innerHTML = decoyData.reviews "/5 stars";
+    decoyManufacturer.innerHTML = "Made by: " + decoyData.manufacturer;
     decoyDescription.innerHTML = decoyData.decription;
     contentTitle.innerHTML = decoyData.name;
 
@@ -162,9 +162,9 @@ function changeTrapsClass(){
     let trapReview = document.getElementById("trapsReview");
     let trapPrice = document.getElementById("trapsPrice");
     console.log();
-    trapPrice.innerHTML = trapData.price;
-    trapReview.innerHTML = trapData.reviews;
-    trapManufacturer.innerHTML = trapData.manufacturer;
+    trapPrice.innerHTML = "$" + trapData.price;
+    trapReview.innerHTML = trapData.reviews + "/5 stars";
+    trapManufacturer.innerHTML = "Made by: " + trapData.manufacturer;
     trapDescription.innerHTML = trapData.decription;
     contentTitle.innerHTML = trapData.name;
 
