@@ -8,6 +8,7 @@ let anvilColor = document.getElementById("nameAnvils");
 let explosiveColor = document.getElementById("nameExplosives");
 let decoysColor = document.getElementById("nameDecoys");
 let trapsColor = document.getElementById("nameTraps");
+let homeColor = document.getElementById("nameHome");
 
 let homeMain = document.getElementById("homeMain");
 
@@ -74,10 +75,10 @@ function navImport(){
     const navItemDec = document.getElementById("nameDecoys");
     const navItemTrap = document.getElementById("nameTraps");
 
-    main.setAttribute("style", "height: 700px;");
-    document.getElementsByTagName("main")[0].setAttribute("id", "homeMain");
-    //homeMain.setAttribute("id", "homeMain");
-    //homeMain.style.height = "700px";
+    homeColor.style.backgroundColor = "#ffffff";
+    explosiveColor.style.backgroundColor = "#de2226";
+    decoysColor.style.backgroundColor = "#de2226";
+    trapsColor.style.backgroundColor = "#de2226";
 
     navItemAnvil.innerHTML = anvilData.nav;
     navItemExp.innerHTML = expData.nav;
@@ -86,6 +87,12 @@ function navImport(){
 }
 
 function changeHomeClass(){
+
+    homeColor.style.backgroundColor = "#ffffff";
+    anvilColor.style.backgroundColor = "#de2226";
+    explosiveColor.style.backgroundColor = "#de2226";
+    decoysColor.style.backgroundColor = "#de2226";
+    trapsColor.style.backgroundColor = "#de2226";
 
     if (x.style.display === "none") {
         x.style.display = "block";
@@ -104,6 +111,7 @@ function changeAnvilClass(){
     let anvilPrice = document.getElementById("anvilPrice");
 
     let anvilColor = document.getElementById("nameAnvils");
+    homeColor.style.backgroundColor = "#de2226";
     anvilColor.style.backgroundColor = "#ffffff";
     explosiveColor.style.backgroundColor = "#de2226";
     decoysColor.style.backgroundColor = "#de2226";
@@ -139,6 +147,7 @@ function changeExplosivesClass(){
     contentTitle.innerHTML = expData.name;
 
     let anvilColor = document.getElementById("nameAnvils");
+    homeColor.style.backgroundColor = "#de2226";
     anvilColor.style.backgroundColor = "#de2226";
     explosiveColor.style.backgroundColor = "#ffffff";
     decoysColor.style.backgroundColor = "#de2226";
@@ -168,6 +177,7 @@ function changeDecoysClass(){
     contentTitle.innerHTML = decoyData.name;
 
     let anvilColor = document.getElementById("nameAnvils");
+    homeColor.style.backgroundColor = "#de2226";
     anvilColor.style.backgroundColor = "#de2226";
     explosiveColor.style.backgroundColor = "#de2226";
     decoysColor.style.backgroundColor = "#ffffff";
@@ -198,6 +208,7 @@ function changeTrapsClass(){
     contentTitle.innerHTML = trapData.name;
 
     let anvilColor = document.getElementById("nameAnvils");
+    homeColor.style.backgroundColor = "#de2226";
     anvilColor.style.backgroundColor = "#de2226";
     explosiveColor.style.backgroundColor = "#de2226";
     decoysColor.style.backgroundColor = "#de2226";
