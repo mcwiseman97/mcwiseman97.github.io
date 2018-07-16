@@ -3,7 +3,7 @@ body{
     background-image: url(../images/site/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 350px;
+    width: 400px;
    /* height: 1000px; */
     margin: 0 auto;
 }
@@ -14,10 +14,6 @@ hr{
 
 p{
     text-align: center;
-}
-
-#home{
-
 }
 
 header{
@@ -53,6 +49,7 @@ header{
 main{
     background-color: white;
     padding-bottom: 20px;
+    height: 620px;
 }
 
 #contentTitle{
@@ -181,8 +178,8 @@ hidden{
         background-image: url(../images/site/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 600px;
         height: 1000px;
+        width: 400px;
     }
 
     hr{
@@ -336,6 +333,16 @@ hidden{
         margin-bottom: 70px;
     }
 
+    .floatRight{
+        width: 50%;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        width: 500px;
+    }
     .floatRight{
         width: 50%;
         float: right;
