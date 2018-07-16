@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ACME inc.</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="body" onload="navImport()">
+        <header></header>
+        <nav id="nav-bar">
+            <ul>
+                <li onclick="changeHomeClass()" >Home</li>
+                <li onclick="changeAnvilClass()" id="nameAnvils">Anvils</li>
+                <li onclick="changeExplosivesClass()" id="nameExplosives">Explosives</li>
+                <li onclick="changeDecoysClass()" id="nameDecoys">Decoys</li>
+                <li onclick="changeTrapsClass()" id="nameTraps">Traps</li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <h1 class="welcome">Welcome to Acme!</h1>
+                <section id="sectionOne">
+                    <span id="acmeCon">
+                        <h1 class="acmeRocket">Acme Rocket</h1> 
+                        <p class="acmeRocket">Quick lighting fuse NHTSA approved seat belts Mobile launch stand included.</p>
+                        <button id="btnImg"></button>
+                    </span>
+                </section> 
+                <section id="sectionTwo">
+                    <section id="featuredRec">
+                        <h3>Featured Recipes</h3>
+                        <section id="food">
+                            <div class="foodSize">
+                                <img class="foodImg" src="images/recipes/bbqsand.jpg" alt="Image of Pulled Roadrunner BBQ">
+                                <br><a href="">Pulled Roadrunner BBQ</a>
+                            </div>
+                            <div class="foodSize">
+                                <img class="foodImg" src="images/recipes/potpie.jpg" alt="Image of Roadrunner Pot Pie">
+                                <br><a href="">Roadrunner Pot Pie</a>
+                            </div>
+                            <div class="foodSize">
+                                <img class="foodImg" src="images/recipes/soup.jpg" alt="Image of Roadrunner Soup">
+                                <br><a href="">Roadrunner Soup</a>
+                            </div>
+                            <div class="foodSize">
+                                <img class="foodImg" src="images/recipes/taco.jpg" alt="Image of Roadrunner Tacos">
+                                <br><a href="">Roadrunner Tacos</a>
+                            </div>
+                        </section>
+                    </section>
+                    <section id="review">
+                        <h3>Acme Rocket Reviews</h3>
+                        <ul>
+                            <li>"I don't know how I ever caught roadrunners before this."(4/5)</li>
+                            <li>"That thing was fast!"(4/5)</li>
+                            <li>"Talk about fast delivery"(5/5)</li>
+                            <li>"I didn't even have to pull the meat apart."(4.5/5)</li>
+                            <li>"I'm on my thirtieth one. I love these things!"(5/5)</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>  
+            <section class="sectionTop" id="anvil">
+                <h1 id="contentTitle" >Content Title Here</h1>
+                <img id="anvilImg" class="imgWidth">
+                <section class="floatRight">
+                    <span><strong>Made by: </strong><h4 id="anvilManufacturer"></h4>
+                    <p id="anvilDescription"></p>
+                    <strong>Reviews: </strong><p id="anvilReview"></p>
+                    <p id="anvilPrice"></p></span>
+                </section>
+
+            </section>
+            <section class="sectionTop" id="explosives">
+                <h1 id="contentTitleExp">EXPLOSISIVES</h1>
+                <img id="explosivesImg" class="imgHeight">
+                <section class="floatRight">
+                    <h4 id="explosivesManufacturer"></h4>
+                    <p id="explosivesDescription"></p>
+                    <p id="explosivesReview"></p>
+                    <p id="explosivesPrice"></p>
+                </section>
+            </section>
+            <section class="sectionTop" id="decoys">
+                <h1 id="contentTitleDec">DECOYS</h1>
+                <img id="decoysImg" class="imgHeight">
+                <section id="floatRight" class="testIt">
+                    <h4 id="decoysManufacturer"></h4>
+                    <p id="decoysDescription"></p>
+                    <p id="decoysReview"></p>
+                    <p id="decoysPrice"></p>
+                </section>
+            </section>
+            <section class="sectionTop" id="traps">
+                <h1 id="contentTitleTrap">TRAPS</h1>
+                <img id="trapsImg" class="imgWidth">
+                <section id="floatRight">
+                    <h4 id="trapsManufacturer"></h4>
+                    <p id="trapsDescription"></p>
+                    <p id="trapsReview"></p>
+                    <p id="trapsPrice"></p>
+                </section>
+            </section>
+        </main>
+        <footer id="footer">
+            <hr>
+            <section id="centerFooter">
+                <p>&copy; 2018 ACME Inc., All right reserved.</p>
+                <p>All images used are velieved to be in "Fair Use". Please notify the auther if any are not they will be removed.</p>
+            </section>
+
+            </section>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
