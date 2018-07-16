@@ -9,6 +9,8 @@ let explosiveColor = document.getElementById("nameExplosives");
 let decoysColor = document.getElementById("nameDecoys");
 let trapsColor = document.getElementById("nameTraps");
 
+let homeMain = document.getElementById("homeMain");
+
 y.style.display = "none";
 z.style.display = "none";
 n.style.display = "none";
@@ -72,6 +74,11 @@ function navImport(){
     const navItemDec = document.getElementById("nameDecoys");
     const navItemTrap = document.getElementById("nameTraps");
 
+    main.setAttribute("style", "height: 700px;");
+    document.getElementsByTagName("main")[0].setAttribute("id", "homeMain");
+    //homeMain.setAttribute("id", "homeMain");
+    //homeMain.style.height = "700px";
+
     navItemAnvil.innerHTML = anvilData.nav;
     navItemExp.innerHTML = expData.nav;
     navItemDec.innerHTML = decoyData.nav;
@@ -79,6 +86,7 @@ function navImport(){
 }
 
 function changeHomeClass(){
+
     if (x.style.display === "none") {
         x.style.display = "block";
         y.style.display = "none";

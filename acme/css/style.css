@@ -49,7 +49,7 @@ header{
 main{
     background-color: white;
     padding-bottom: 20px;
-    height: 620px;
+   /* height: 620px;*/
 }
 
 #contentTitle{
@@ -228,6 +228,7 @@ hidden{
     main{
         background-color: white;
         padding-bottom: 20px;
+        height: 400px;
     }
 
     #contentTitle{
