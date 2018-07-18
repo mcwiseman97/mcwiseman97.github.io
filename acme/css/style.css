@@ -341,7 +341,8 @@ hidden{
     }
 
     .floatRight{
-
+        width: 50%;
+        float: right;
     }
 }
 
@@ -350,7 +351,8 @@ hidden{
         width: 700px;
     }
     .floatRight{
-
+        width: 50%;
+        float: right;
     }
 }
 
