@@ -222,5 +222,4 @@ function changeTrapsClass(){
         n.style.display = "none";
         m.style.display = "block";
     }
-
 }   

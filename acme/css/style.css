@@ -4,7 +4,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 400px;
-   /* height: 1000px; */
     margin: 0 auto;
 }
 
@@ -33,7 +32,6 @@ header{
 #nav-bar > ul {
     padding-left: 0px;
     margin: 0 0 0 0;
-    /*text-align: center;*/
 }
 
 #nav-bar > ul > li {
@@ -49,12 +47,9 @@ header{
 main{
     background-color: white;
     padding-bottom: 20px;
-   /* height: 620px;*/
 }
 
 #contentTitle{
-    /* margin-top: 0;
-    margin-bottom: 0; */
 }
 
 .welcome{
@@ -66,9 +61,8 @@ main{
     background-image: url(../images/site/feature.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   /* background-size: 100% auto; */
-    width: 100%;
-    height: 300px;
+    /* width: 100%; */
+    height: 400px;
     margin-top: -20px;
 }
 #acmeCon{
@@ -79,11 +73,11 @@ main{
     width: 100%;
 }
 .acmeRocket{
-    width: 35%;
+    width: 400px;
     color: #de2226;
-    margin-right: 0px;
-    margin-left: 65%;
     text-align: left;
+    font-size: 2em;
+    margin-left: -15px;
 }
 
 #btnImg{
@@ -146,17 +140,12 @@ hidden{
 }
 
 .imgHeight{
-    height: 300px;
+    height: 150px;
+   /* width:100px; */
     margin-bottom: 70px;
-}
-.floatRight{
-    float: right;
-    width: 50%;
-}
-
-.testIt{
-    width: 50;
-    float: right;
+    margin-left: 40%;
+    /* width: 80%; */
+    
 }
 
 .price{
@@ -167,19 +156,20 @@ hidden{
 
 
 
+
+
 @media only screen and (min-width: 400px){
 
     html{
         width: 100%;
-
     }
 
     body{
         background-image: url(../images/site/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1000px;
-        width: 400px;
+        height: 2000px;
+        
     }
 
     hr{
@@ -194,7 +184,6 @@ hidden{
         margin: 0 auto;
     }
 
-
     header{
         height: 120px;
         width: 100%;
@@ -207,6 +196,7 @@ hidden{
         background-color: #de2226;
         width: 100%;
         height: auto;
+        font-size: 1.4em
     }
 
     #nav-bar > ul {
@@ -228,7 +218,7 @@ hidden{
     main{
         background-color: white;
         padding-bottom: 20px;
-        height: 400px;
+
     }
 
     #contentTitle{
@@ -246,8 +236,8 @@ hidden{
         background-repeat: no-repeat;
         background-size: cover;
     /* background-size: 100% auto; */
-        width: 100%;
-        height: 300px;
+       /* width: 100%; */
+        height: 450px;
         margin-top: -20px;
     }
     #acmeCon{
@@ -278,18 +268,19 @@ hidden{
 
     #sectionTwo{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     #featuredRec{
-        width: 50%;
+        width: 100%;
         display:flex;
         flex-flow: row;
         flex-wrap: wrap;
+        margin-left: 15px;
     }
 
     #review{
-        width: 50%;
+        width: 100%;
     }
 
     #food{
@@ -335,8 +326,8 @@ hidden{
     }
 
     .floatRight{
-        width: 50%;
-        float: right;
+       /* width: 50%; */
+       /* float: right; */
     }
 }
 
@@ -344,9 +335,13 @@ hidden{
     body{
         width: 500px;
     }
+
+    #main{
+        
+    }
+
     .floatRight{
-        width: 50%;
-        float: right;
+
     }
 }
 
@@ -355,8 +350,7 @@ hidden{
         width: 700px;
     }
     .floatRight{
-        width: 50%;
-        float: right;
+
     }
 }
 
