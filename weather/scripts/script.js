@@ -1,73 +1,5 @@
-<<<<<<< HEAD
-//KEY WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2
-
-// TEST TO SEE IF JS WORKS
-console.log(5 + 6);
-
-// function getCondition(){
-//     // if(){
-
-//     // }
-//     // if(){
-
-//     // }
-//     // if(){
-
-//     // }
-// }
-
-// function changeSummeryImage(){
-
-
-// }
-=======
 //KEY WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2
 //http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=WtDgQpcXPTTHmmrANqYHpTyBZmr5gxi2&q=34%2C-112&language=en-us
-
-
-
-
-var franklin = {
-    City: "Franklin",
-    State: "ID",
-    High: 64,
-    Low: 41,
-    Temp: 55,
-    Precip: 0,
-    Wind: "5",
-    Direction: "SW",
-    Summary: "Rain",
-    Longitude: 111.79,
-    Latitude: 42.07,
-    Elevation: 4968,
-    zip: 83237,
-    Hourly: {
-        0: 41,
-        1: 41,
-        2: 41,
-        3: 41,
-        4: 41,
-        5: 41,
-        6: 42,
-        7: 44,
-        8: 44,
-        9: 46,
-        1: 49,
-        1: 51,
-        1: 55,
-        13: 58,
-        14: 62,
-        15: 64,
-        16: 64,
-        17: 62,
-        18: 61,
-        19: 60,
-        20: 59,
-        21: 58,
-        22: 52,
-        23: 48
-    }
-}
 
 
 var city = document.getElementById("city");
@@ -361,4 +293,3 @@ function buildPage(locData) {
 
 
 }
->>>>>>> 5848c002a80da7bae1f23af09bad6b39f2d71df8
