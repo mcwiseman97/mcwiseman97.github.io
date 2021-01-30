@@ -1,0 +1,43 @@
+html{
+    background-color: lightgoldenrodyellow;
+}
+#navul{
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#navul > li{
+    list-style: none;
+    position:inherit;
+    display: inline; 
+
+}
+.marr{
+    margin-right: 20px;
+}
+
+#headinfo > h1{
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+}
+#headinfo > p{
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+}
+
+#list{
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+}
+
+#list > ol > li > a{
+    color: rgb(65, 88, 102);
+}
+
+#list > ol > li > a:hover{
+    color: rgb(44, 54, 20);
+}
