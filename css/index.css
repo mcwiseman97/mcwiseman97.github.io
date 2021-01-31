@@ -1,8 +1,13 @@
 html{
     background-color: lightgoldenrodyellow;
 }
+
+nav {
+    margin-left:-40px;
+}
+
 #navul{
-    width: 400px;
+    width:400px;
     margin-left:auto;
     margin-right:auto;
 }
